@@ -17,6 +17,7 @@ python homework1.py 'corpus.txt' "Apple computer is the first product of the com
 3. When bigram probability without smoothing, if the word of sentence never show up in the training set, to prevent dividing by zero, I skip this bigram and list how many bigrams are skipped by this case.
 
 ## result example
+```
 JCMacBook:CS6320_NLP JC$ python homework1.py 'corpus.txt' "Apple computer is the first product of the company" "Apple introduced the new version of iPhone in 2008"
 
 bigram counts table for Sentence 1
@@ -130,3 +131,4 @@ did multiplied:  8  compare length:  8
 1.323528368268833e-24
 
 Sentence 1 is better, which is " Apple computer is the first product of the company "
+```
