@@ -19,7 +19,8 @@ python homework1.py 'corpus.txt' "Apple computer is the first product of the com
 ## result example
 ```
 JCMacBook:CS6320_NLP JC$ python homework1.py 'corpus.txt' "Apple computer is the first product of the company" "Apple introduced the new version of iPhone in 2008"
-
+```
+```
 bigram counts table for Sentence 1
           Apple  computer  is  the  first  product  of  company
 Apple         0         0   0   23      2        0  17        0
